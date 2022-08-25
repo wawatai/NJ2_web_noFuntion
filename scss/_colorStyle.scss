@@ -312,6 +312,17 @@ $innerPage_Sercurity_high: #00980c;
 $innerPage_Sercurity_unCheck: #929292;
 $innerPage_Sercurity_Check: #b8151a;
 
+@mixin levelCardStyle_disable {
+    background: linear-gradient(to top,#eeeeee 6%,#bababa 31%,#eeeeee 62%);
+    border-radius: 32px;
+    border: solid 2px #727272;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+$levelCardStyle_disableColor: #3E5092;
+$levelCardStyle_disableBorder: #737373;
 @mixin levelCardStyle_1 {
     background: linear-gradient(to top,#f8e2d2 4%,#dcb194 34%,#f8e2d2 72%);
     border-radius: 32px;
